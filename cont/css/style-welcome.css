@@ -1,0 +1,132 @@
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #f5a53c;
+  background: -webkit-linear-gradient(-135deg, #FF9E74, #F5C73B);
+  background: -o-linear-gradient(-135deg, #FF9E74, #F5C73B);
+  background: -moz-linear-gradient(-135deg, #FF9E74, #F5C73B);
+  background: linear-gradient(-135deg, #FF9E74, #F5C73B);
+}
+
+
+.wrap-login100 {
+  width: 960px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 33px 130px 33px 130px;
+}
+
+
+@media (max-width: 992px) {
+  .wrap-login100 {
+    padding: 33px 90px 33px 85px;
+    justify-content: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrap-login100 {
+    padding: 33px 80px 33px 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrap-login100 {
+    padding: 33px 15px 33px 15px;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 35px;
+  padding-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.card{
+ border: 0 !important;
+}
+
+a{
+text-decoration: none;
+}
+
+a .card:hover{
+opacity: 80%;
+}
+
+a{
+color:rgb(247, 188, 26);
+font-size: 25px;
+font-weight: 500;
+}
+
+a:hover{
+ color:rgb(255, 138, 28);
+ text-decoration: none;
+ transition: all 0.4s;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.buton-raport{
+  text-align: center;
+  background-color: #f5a53c;
+}
+
+.text-center{
+  text-align: center;
+  width: 100%;
+}
+
+.buton{
+  padding: 10px;
+}
+
+.buton:hover{
+  background-color: rgba(226, 164, 29, 0.25);
+  transition: all 0.4s;
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s; 
+}
+
+.limiter{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(109, 108, 108);
+}
+
+.symbol-santier{
+  font-size: 26px;
+  margin: 10px;
+}
+
+.my-card{
+  border: 1px solid rgb(109, 108, 108 ,0.75)!important;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
